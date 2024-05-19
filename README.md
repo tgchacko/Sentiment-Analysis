@@ -104,10 +104,10 @@ Exploratory Data Analysis (EDA) involved exploring the reviews data to answer ke
 
 3. #### Text Preprocessing
 
-**Tokenization**: Breaking down the text into individual words or tokens.
-**Stop Words Removal**: Eliminating common words that offer little value for analysis.
-**Lemmatization**: Converting words into their base form.
-**Vectorization**: Transforming text data into numerical format using techniques like Count Vectorization and TF-IDF.
+1) **Tokenization**: Breaking down the text into individual words or tokens.
+2) **Stop Words Removal**: Eliminating common words that offer little value for analysis.
+3) **Lemmatization**: Converting words into their base form.
+4) **Vectorization**: Transforming text data into numerical format using techniques like Count Vectorization and TF-IDF.
 
 #### Inspiration for Data Preprocessing
 
@@ -131,23 +131,23 @@ The inspiration for the specific preprocessing steps comes from typical challeng
 
 ### Choosing the Algorithm for the Project
 
-1)**Logistic Regression - TFIDF**: Uses term frequency-inverse document frequency (TFIDF) to weigh words based on their importance and logistic regression for binary classification, providing a balance of interpretability and performance.
+1) **Logistic Regression - TFIDF**: Uses term frequency-inverse document frequency (TFIDF) to weigh words based on their importance and logistic regression for binary classification, providing a balance of interpretability and performance.
 
-2)**Naive Bayes - Count Vectorizer**: Utilizes the count vectorizer to transform text data into token counts and applies Naive Bayes for probabilistic classification, effective for large datasets and capturing word frequency.
+2) **Naive Bayes - Count Vectorizer**: Utilizes the count vectorizer to transform text data into token counts and applies Naive Bayes for probabilistic classification, effective for large datasets and capturing word frequency.
 
 3) **Logistic Regression - Count Vectorizer**: Combines count vectorizer for token counts with logistic regression to predict sentiment, suitable for linear relationships and high-dimensional data.
 
-4)**Naive Bayes - TFIDF**: Employs TFIDF to emphasize important words and Naive Bayes for classification, balancing word importance and probabilistic predictions.
+4) **Naive Bayes - TFIDF**: Employs TFIDF to emphasize important words and Naive Bayes for classification, balancing word importance and probabilistic predictions.
 
-5)**NLTK SIA Polarity Scores**: Utilizes the Sentiment Intensity Analyzer from NLTK to quickly assess sentiment polarity scores, offering a simple and fast sentiment analysis approach.
+5) **NLTK SIA Polarity Scores**: Utilizes the Sentiment Intensity Analyzer from NLTK to quickly assess sentiment polarity scores, offering a simple and fast sentiment analysis approach.
   
 ### Assumptions
 
-1)**Independence of Features**: Assuming that words are independent of each other.
-2)**Linear Relationships**: Assuming linear separability of sentiment based on word presence.
-3)**Text Preprocessing Decisions**: Assuming preprocessing steps adequately capture important features.
-4)**Quality and Completeness of Data**: Assuming the dataset accurately represents the population of interest.
-5)**Sentiment Labeling Accuracy**: Assuming sentiment labels are correct.
+1) **Independence of Features**: Assuming that words are independent of each other.
+2) **Linear Relationships**: Assuming linear separability of sentiment based on word presence.
+3) **Text Preprocessing Decisions**: Assuming preprocessing steps adequately capture important features.
+4) **Quality and Completeness of Data**: Assuming the dataset accurately represents the population of interest.
+5) **Sentiment Labeling Accuracy**: Assuming sentiment labels are correct.
 
 ### Model Evaluation Metrics
 
@@ -160,23 +160,23 @@ The inspiration for the specific preprocessing steps comes from typical challeng
 
 #### Breakdown of Each Model's Performance
 
-1)**Logistic Regression - TFIDF**: Accuracy: 91.29%, Precision: 0.84 (negative), 0.93 (positive), Recall: 0.73 (negative), 0.96 (positive), F1-Score: 0.79 (negative), 0.95 (positive)
+1) **Logistic Regression - TFIDF**: Accuracy: 91.29%, Precision: 0.84 (negative), 0.93 (positive), Recall: 0.73 (negative), 0.96 (positive), F1-Score: 0.79 (negative), 0.95 (positive)
 
 ![Logistic Regression with TF-IDF Results](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/739e25ec-8a82-44bb-8177-222d16a2ee27)
 
-2)**Naive Bayes - Count Vectorizer**: Accuracy: 89.42%, Precision: 0.77 (negative), 0.93 (positive), Recall: 0.73 (negative), 0.94 (positive), F1-Score: 0.75 (negative), 0.93 (positive)
+2) **Naive Bayes - Count Vectorizer**: Accuracy: 89.42%, Precision: 0.77 (negative), 0.93 (positive), Recall: 0.73 (negative), 0.94 (positive), F1-Score: 0.75 (negative), 0.93 (positive)
 
 ![Naive Bayes Classifier with Count Vectorizer Results](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/37acfe65-bfc8-4086-8f73-0c3062630668)
 
-3)**Logistic Regression - Count Vectorizer**: Accuracy: 91.64%, Precision: 0.84 (negative), 0.93 (positive), Recall: 0.76 (negative), 0.96 (positive), F1-Score: 0.80 (negative), 0.95 (positive)
+3) **Logistic Regression - Count Vectorizer**: Accuracy: 91.64%, Precision: 0.84 (negative), 0.93 (positive), Recall: 0.76 (negative), 0.96 (positive), F1-Score: 0.80 (negative), 0.95 (positive)
 
 ![Logistic Regression with Count Vectorizer Results](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/e3c2a3d6-a05f-4c73-9030-77e550bce8c5)
 
-4)**Naive Bayes - TFIDF: Accuracy**: 85.38%, Precision: 0.90 (negative), 0.85 (positive), Recall: 0.37 (negative), 0.99 (positive), F1-Score: 0.52 (negative), 0.91 (positive)
+4) **Naive Bayes - TFIDF: Accuracy**: 85.38%, Precision: 0.90 (negative), 0.85 (positive), Recall: 0.37 (negative), 0.99 (positive), F1-Score: 0.52 (negative), 0.91 (positive)
 
 ![Naive Bayes Classifier with TF-IDF Results](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/5163bb36-0863-450f-8028-f96d9d92573f)
 
-5)**NLTK SIA Polarity Scores**: Accuracy: 81.97%, Precision: 0.74 (negative), 0.83 (positive), Recall: 0.26 (negative), 0.97 (positive), F1-Score: 0.39 (negative), 0.89 (positive)
+5) **NLTK SIA Polarity Scores**: Accuracy: 81.97%, Precision: 0.74 (negative), 0.83 (positive), Recall: 0.26 (negative), 0.97 (positive), F1-Score: 0.39 (negative), 0.89 (positive)
 
 ![NLTK SIA Polarity Scores](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/137dc5b0-60bb-4935-91d0-b92f44acd903)
 
@@ -195,11 +195,10 @@ The inspiration for the specific preprocessing steps comes from typical challeng
 ### Limitations
 
 1) Data Quality: Potential inaccuracies due to underreporting or subjective nature of reviews.
- 2) Model Limitations: Models may not capture all nuances of sentiment in reviews.
- 3) External Factors: Other factors not included in the analysis can impact sentiment.
+2) Model Limitations: Models may not capture all nuances of sentiment in reviews.
+3) External Factors: Other factors not included in the analysis can impact sentiment.
 
 ### Future Possibilities of the Project
-
 1) Advanced Predictive Modeling: Explore advanced models like NBEATS, NHITS, PatchTST, VARMAX, VAR, and KATS for enhanced accuracy.
 2) Store-Specific/Product-Specific Analysis: Conduct detailed analysis for each product category in each store to uncover unique patterns and optimize models for individual characteristics.
 3) External Factors Integration: Incorporate additional factors like economic indicators, social events, and regional factors for a comprehensive approach.
