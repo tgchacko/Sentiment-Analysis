@@ -186,6 +186,9 @@ The inspiration for the specific preprocessing steps comes from typical challeng
 
 ![Count of Products in Each Segment](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/0a0a65f5-8d9e-469c-831a-02d0fe98f78f)
 
+| Model | Accuracy | Precision (Negative) | Precision (Positive) | Recall (Negative) | Recall (Positive) | F1-Score (Negative) | F1-Score (Positive) |
+|-----------------------------------|----------|----------------------|----------------------|-------------------|-------------------|-------------------|-------------------|
+| Logistic Regression - TFIDF | 91.29% | 0.84 |	0.93 | 0.73 | 0.96 | 0.79 |	0.95 |
 ### Recommendations
 
 1) Implement targeted improvements based on feedback from reviews.
