@@ -182,8 +182,6 @@ The inspiration for the specific preprocessing steps comes from typical challeng
 
 ![Models Accuracy](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/cf7a4832-970a-4705-94e3-47b24b3eec17)
 
-**Balanced Performance**: Logistic Regression – Count Vectorizer stands out as the best model due to its high accuracy and balanced precision and recall across both classes.
-
 ![Count of Products in Each Segment](https://github.com/tgchacko/Sentiment-Analysis/assets/169921893/0a0a65f5-8d9e-469c-831a-02d0fe98f78f)
 
 | Model | Accuracy | Precision (Negative) | Precision (Positive) | Recall (Negative) | Recall (Positive) | F1-Score (Negative) | F1-Score (Positive) |
@@ -192,6 +190,8 @@ The inspiration for the specific preprocessing steps comes from typical challeng
 | Naive Bayes - Count Vectorizer | 89.42% |	0.77 | 0.93 | 0.73 | 0.94 |	0.75 | 0.93 |
 | Logistic Regression - Count Vectorizer | 91.64% |	0.84 | 0.93 | 0.76 | 0.96 |	0.80 | 0.95 |
 | Naive Bayes - TF-IDF | 85.38% | 0.90 | 0.85 | 0.37 | 0.99 | 0.52 | 0.91|
+
+**Balanced Performance**: Logistic Regression – Count Vectorizer stands out as the best model due to its high accuracy and balanced precision and recall across both classes.
 
 ### Recommendations
 
