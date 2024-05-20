@@ -74,8 +74,6 @@ The dataset consists of 5,68,411 rows and 10 columns, including unique identifie
 **Libraries**
 
 Below are the links for details and commands (if required) to install the necessary Python packages:
-
-Below are the links for details and commands (if required) to install the necessary Python packages:
 - **pandas**: Go to [Pandas Installation](https://pypi.org/project/pandas/) or use command: `pip install pandas`
 - **numpy**: Go to [NumPy Installation](https://pypi.org/project/numpy/) or use command: `pip install numpy`
 - **matplotlib**: Go to [Matplotlib Installation](https://pypi.org/project/matplotlib/) or use command: `pip install matplotlib`
