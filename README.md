@@ -81,7 +81,7 @@ Below are the links for details and commands (if required) to install the necess
 - **matplotlib**: Go to [Matplotlib Installation](https://pypi.org/project/matplotlib/) or use command: `pip install matplotlib`
 - **seaborn**: Go to [Seaborn Installation](https://pypi.org/project/seaborn/) or use command: `pip install seaborn`
 - **scikit-learn**: Go to [Scikit-Learn Installation](https://pypi.org/project/scikit-learn/) or use command: `pip install scikit-learn`
-- **statsmodels**: Go to [NLTK Installation](https://pypi.org/project/nltk/) or use command: `pip install nltk`
+- **NLTK**: Go to [NLTK Installation](https://pypi.org/project/nltk/) or use command: `pip install nltk`
 
 ### EDA Steps
 
